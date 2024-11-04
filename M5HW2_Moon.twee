@@ -1,0 +1,201 @@
+:: StoryTitle
+M5HW2_Moon
+
+
+:: StoryData
+{
+  "ifid": "9F04F57E-281E-4184-BC81-CA202FA7D6D0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Main Menu",
+  "zoom": 1
+}
+
+
+:: Enjoy a Sit Down Meal at Your Local Pizzeria. {"position":"1450,825","size":"100,100"}
+You decide to skip delivery and head to *Freddy Fazbear’s Pizzeria.* The flickering neon sign greets you with a cheerful “Open!” but when you step inside, it’s eerily empty.
+
+Approaching the counter, you ring the bell. Suddenly, Freddy himself pops up, grinning wide. "Welcome… to Freddy Fazbear’s!" he says in a voice glitching like a broken toy.
+
+You stammer, “Uh, one pepperoni, please.”
+
+Freddy’s eyes flash. “One… *pepperoni,*” he replies, like it’s the punchline of a joke only he gets. Behind him, Bonnie’s head does a weird twitch, and you could *swear* Chica just winked.
+
+Freddy leans in, whispering, “It’s almost *closing time.*” You take the hint and speed-walk to the door, Freddy’s laughter echoing after you as you promise yourself: never. again.
+
+
+:: Enter the Room {"position":"1200,950","size":"100,100"}
+The door creaks open and you spot a woman in the corner brushing her hair in front of an antique vanity.
+She tenses, and slowly turns to face you...
+Her face is young and beautiful...
+You approach her, but as you get closer her countenance evolves into the haggard maw of a witch.
+She devours you whole, on the spot.
+***GAME OVER***
+
+
+:: Forget It and Go Home {"position":"1325,575","size":"100,100"}
+You decide to go home.
+Safe at home, do you:
+[[Order Some Food]]
+[[Go to Bed]]
+
+
+:: Go Up the Stairs {"position":"1200,825","size":"100,100"}
+The floorboards groan beneath you, as you take a tentative step up the stairs...
+Then another...
+...then another...
+... until you finally reach the top of the stairs, and come across an eerily long hallway.
+There is a door at the very end of the hallway, where you can still here the faint singing.
+Do you:
+[[Enter the Room]]
+[[Flee the House->Forget It and Go Home]] 
+
+
+:: Go to Bed {"position":"1450,700","size":"100,100"}
+You go to bed.
+***GAME OVER***
+
+
+:: Let yourself in through the cat door {"position":"1200,700","size":"100,100"}
+You enter the dim and dusty old house.
+The floorboards creak beneath your weight, as you come across a staircase.
+You hear a woman singing faintly, and ever-so hauntingly up the stairs.
+Do you:
+[[Go Up the Stairs]]
+[[Resume Looking Around]]
+
+
+:: Main Menu {"position":"900,325","size":"100,100"}
+Main Menu
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fcfcbae6-d8e6-43ae-871c-54cc7a1f525a/dfzef9o-c66b68d4-e15f-4be8-a401-cadbeba66b22.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZjZmNiYWU2LWQ4ZTYtNDNhZS04NzFjLTU0Y2M3YTFmNTI1YVwvZGZ6ZWY5by1jNjZiNjhkNC1lMTVmLTRiZTgtYTQwMS1jYWRiZWJhNjZiMjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g1OMNF0efsodhP-rBrZEsIVKtLvUBi-rrpu4YUsq6aA">
+[[Story Start]]
+
+
+:: Nosferatu's Garlicious Meatball Sub {"position":"1325,950","size":"100,100"}
+As you open the door, the chill of the night seeps in, and there stands Nosferatu himself, gaunt and pale in his dusty DoorDash uniform, his bony fingers clutching a paper bag. His hollow eyes meet yours, unblinking, as he extends the bag toward you, revealing the Nosferatu's Garlicious Meatball Sub within. A faint, displeased hiss escapes his lips at the scent of garlic wafting up, but he remains professional.
+
+In a voice as quiet and raspy as the dead leaves rustling outside, he says, “One Garlicious... Meatball Sub. For... you.”
+
+You take the bag, unable to look away from his sunken gaze. "Uh... thanks?"
+
+Nosferatu nods slowly, then pauses, a look of dreadful contemplation crossing his face as he points to his rating card. “Five stars… would be... appreciated.”
+
+You nod, holding back a nervous laugh, and close the door as he drifts back into the night, his form melting into the shadows before he can even make it to the driveway.
+
+And with that, Nosferatu vanishes into the mist, leaving you alone in the dark... with your garlic-filled sub.
+
+
+:: Order Some Food {"position":"1325,700","size":"100,100"}
+You decide to order food.
+Do you:
+[[Order a Sub on DoorDash]]
+[[Enjoy a Sit Down Meal at Your Local Pizzeria.]]
+
+
+:: Order a Sub on DoorDash {"position":"1325,825","size":"100,100"}
+You decide to DoorDash a sub from Big Tony's Gigantic Submarine Sandwiches
+You must decide which sub you would like to order:
+[[Nosferatu's Garlicious Meatball Sub]]
+[[Wolfman's Giant Meatlover's Challenge Sub]]
+
+
+:: Quit {"position":"950,575","size":"100,100"}
+Ok, quitting game.
+
+[[Quit->Main Menu]] 
+
+
+:: Resume Looking Around {"position":"1075,825","size":"100,100"}
+You take the chance to look around, noticing the sweltering heat of the room.
+The overwhelming smell of tender flesh and baked goods mingle in your nostrils.
+Out of the corner of your eye, you notice a cross stitch on the wall with the message...
+..."I <3 eating children"...!
+This is a witches house! You hear a creaking, as someone begins to descend the stairs.
+You decide to flee home with haste, barely escaping the grasp of a hungry witch.
+***GAME OVER***
+
+
+:: Sneak Around Back {"position":"1200,575","size":"100,100"}
+The back door is locked too, but you notice the cat door is unsecured.
+Do you:
+[[Let yourself in through the cat door]]
+[[Keep your dignity and go home->Forget It and Go Home]] 
+
+
+
+
+:: Story Start {"position":"1025,450","size":"100,100"}
+You're in front of a spooky old house...
+You're friends dared you to go inside...
+══════════════════════██════█████
+═════════════════════█▒▒█═══█▒▒▒█
+════════════════════█▒▒▒▒█══█▒▒▒█
+══════════════════██▒▒▒▒▒▒█═█▒▒▒█
+═════════════════█▒▒▒▒▒▒▒▒▒██▒▒▒█
+════════════════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+═══════════════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+═════════════██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+════════════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+═══════════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+═════════██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+════════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+═══════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+══════█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+═════██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+══════██▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒██
+═══════███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███
+════════██▒▒▒▒▒██████▒▒▒▒████████▒▒▒██
+═════════█▒▒▒▒▒██████▒▒▒▒████████▒▒▒█
+═════════█▒▒▒▒▒██████▒▒▒▒████████▒▒▒█
+═════════█▒▒▒▒▒██████▒▒▒▒████████▒▒▒█
+═════════█▒▒▒▒▒██████▒▒▒▒████████▒▒▒█
+██████████▒▒▒▒▒██████▒▒▒▒████████▒▒▒███████
+██████████▒▒▒▒▒██████▒▒▒▒████████▒▒▒███████
+██████████▒▒▒▒▒██████▒▒▒▒████████▒▒▒███████
+██████████▒▒▒▒▒██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████
+██████████▒▒▒▒▒██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████
+██████████▒▒▒▒▒██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████
+███████████████████████████████████████████
+███████████░░░░░░██████████████████████████
+███████░░░░░░██████████████████████████████
+█████░░░░░░████████████████████████████████
+█████░░░░░░████████████████████████████████
+█████░░░░░░░░██████████████████████████████
+██████░░░░░░░░░░░░█████████████████████████
+████████░░░░░░░░░░░░░░░░███████████████████
+███████████░░░░░░░░░░░░░░░░░░░█████████████
+████████████████░░░░░░░░░░░░░░░░░░░████████
+████████████████████░░░░░░░░░░░░░░░░░██████
+███████████████████████░░░░░░░░░░░░░░░░████
+█████████████████████████░░░░░░░░░░░░░░░░██
+What do you do?
+[[Try the Front Door]]
+[[Sneak Around Back]]
+[[Forget It and Go Home]]
+[[Quit]]
+
+
+:: Try the Front Door {"position":"1075,575","size":"100,100"}
+It's locked.
+──▄▀▀▀▄──
+──█───█──
+─███████─
+░██─▀─██░
+░███▄███░
+Do you:
+[[Check Around Back->Sneak Around Back]]
+[[Give Up and Go Home->Forget It and Go Home]] 
+
+
+:: Wolfman's Giant Meatlover's Challenge Sub {"position":"1450,950","size":"100,100"}
+The door swings open, and there, illuminated by the full moon’s eerie glow, stands the Wolfman. His shaggy fur pokes out from the collar of his DoorDash vest, which barely contains his muscled frame. In one massive, clawed hand, he holds an enormous paper bag, grease stains marking where the *Giant Meatlover's Challenge Sub* rests within.
+
+He flashes a toothy grin that borders on a snarl, his breath visible in the cold night air as he rumbles, "One *Meatlover's Challenge,* fresh from the pack." His voice is gravelly, with a hint of a growl beneath it.
+
+You reach for the bag, only to notice his fingers twitching, resisting an urge to tear it open himself. “Uh, thanks,” you say cautiously, eyeing his claws. 
+
+Wolfman sniffs the air, his gaze lingering on the bag. “Lucky... the meat’s not for me tonight,” he mutters with a raspy chuckle, his eyes gleaming with a feral glint.
+
+You manage a nervous smile as he hands over the bag, resisting the temptation to wolf down your food right there. Wolfman gives a curt nod, adjusting his DoorDash hat with surprising delicacy. “Enjoy it,” he growls, turning to prowl back into the darkness, his shadow disappearing among the trees with a final, satisfied howl.
+
+And as you close the door, you wonder… what might happen if you leave a few meat scraps on the porch tonight.
