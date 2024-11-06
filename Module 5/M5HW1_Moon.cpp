@@ -53,7 +53,7 @@ int main()
                 string month1, month2, month3;
                 double rfall1, rfall2, rfall3, avg;
 
-                avg = (month1 + month2 + month3)/3;
+                avg = (rfall1 + rfall2 + rfall3)/3;
 
                 cout << "Enter month: ";
                 cin >> month1;
