@@ -7,17 +7,17 @@ using namespace std;
 
 // CSC 134
 // M3HW1 - Gold/Bonus
-// Susanna Quayle
+// Susanna Quayle, Leeanna Coleman, Madison Moon
 // 11/4/2024
 
 // declare funcs
 void avg_rainfall();
-void calc_hyperrectangle(double width, double length, double height);
-void get_roman_num();
+double calc_hyperrectangle(double width, double length, double height);
+void get_roman_num(int digit);
 double area_circle();
 double area_rectangle();
 double area_triangle();
-void distance_traveled(double speed, double hours);
+bool distance_traveled(double speed, double hours);
 
 int main()
 {
@@ -28,7 +28,7 @@ int main()
 
     cout << "\nHello user, what is your name? ";
     cin >> name;
-    cout << "Nice to meet you, " << name << endl;
+    cout << "\nNice to meet you, " << name << endl;
 
     while (continue_menu)
     {
@@ -38,7 +38,7 @@ int main()
         cout << "1. Avg Rainfall" << endl;
         cout << "2. 3D Hyperrectangle" << endl;
         cout << "3. Roman Numeral" << endl;
-        cout << "4. Geometry Calc" << endl;
+        cout << "4. Geometry Calculator" << endl;
         cout << "5. Distance Traveled" << endl;
         cout << "6. Exit" << endl;
         cout << "> ";
@@ -48,12 +48,8 @@ int main()
         {
             case 1:
             {
-                // avg rainfall
-                // this is where we'll calculate average rainfall
                 string month1, month2, month3;
                 double rfall1, rfall2, rfall3, avg;
-
-                avg = (rfall1 + rfall2 + rfall3)/3;
 
                 cout << "Enter month: ";
                 cin >> month1;
@@ -67,6 +63,9 @@ int main()
                 cin >> month3;
                 cout << "Enter rainfall for " << month3 << ": ";
                 cin >> rfall3;
+
+                avg = (rfall1 + rfall2 + rfall3)/3;
+
                 cout << "The average rainfall for " << month1 << ", " << month2 << ", and " << month3 << " is " << avg << endl;
 
                 break;
@@ -81,9 +80,10 @@ int main()
                 cin >> width;
                 cout << "Enter length: ";
                 cin >> length;
-                cin << "Enter height: ";
+                cout << "Enter height: ";
                 cin >> height;
                 volume = calc_hyperrectangle(width, length, height);
+                cout << "The volume of your hyperrectangle is: " << volume << endl;
                 break;
             }
 
@@ -100,60 +100,68 @@ int main()
 
             case 4:
             {
-                // geometry calculator
-                
+                // Geometry Calculator
+                bool geometry_menu = true;
+                int geometry_choice;
+                while (geometry_menu) {
                 cout << "Welcome to the Geometry Calculator!" << endl;
-                cout << "1. Ca                 "3. Calculate the Area of a Trangle" << endl >> "4. Quit" <<"            
-                user_choice) {
-                    casgeometry 
-                    {
-geo  metry                      area_circle();
+                cout << "1. Calculate the Area of a Circle" << endl;
+                cout << "2. Calculate the Area of a Rectangle" << endl;
+                cout << "3. Calculate the Area of a Triangle" << endl;
+                cout << "4. Quit" << endl;
+                cout << "Enter your choice (1-4): ";
+                cin >> geometry_choice;
+                
+                switch(geometry_choice) {
+                    case 1: {
+                        area_circle();
+                        break;
                     }
-
-                    case 2:
-                    {
+                    
+                    case 2: {
                         area_rectangle();
+                        break;
                     }
 
-                    case 3:
-                    {
-                       area_triangle(); 
+                    case 3: {
+                        area_triangle();
+                        break;
                     }
-                    
-                    case 4:
-                    {
-                        
+
+                    case 4: {
+                        cout << "Thank you for using Geometry Calculator. Goodbye!" << endl;
+                        geometry_menu = false;
+                        break;
                     }
-                    
-                    defa//TODO go back to main menuult:
-                    {
-                        cout << "Invalid choice." << endl;
-                        break;  
+
+                    default: {
+                        cout << "Invalid choice. Please choose a number between 1-4." << endl;
+                        break;
                     }
+
                 }
- Please pic                              k a number between (1-4)        }
 
-            case 
+                }
+                break;
+            }
 
-                break;5:
-                            // distance traveled
+            case 5:
+            {
+                // distance traveled
                 double speed, hours;
                 bool speed_positive = true;
                 bool plus_one_hours = true;
-                while (speed_positive == true)
+                cout << "\nWhat is the speed you are traveling at? (in mph) ";
+                cin >> speed;
+                if (speed > 0)
                 {
-                    cout << "What is the speed you are traveling at? (in mph) ";
-                    cin >> speed;
-                    if (speed > 0)
-                    {
-                        speed_positive = true;
-                    }
-                    else if (speed <= 0)
-                    {
-                        speed_positive = false;
-                    }
+                    speed_positive = true;
                 }
-                while (plus_one_hours == true)
+                else if (speed <= 0)
+                {
+                    speed_positive = false;
+                }
+                while (speed_positive == true)
                 {
                     cout << "How many hours are you traveling? ";
                     cin >> hours;
@@ -165,8 +173,9 @@ geo  metry                      area_circle();
                     {
                         plus_one_hours = false;
                     }
+                    distance_traveled(speed, hours);
+                    speed_positive = false;
                 }
-                distance_traveled();
                 break;
             }
 
@@ -186,7 +195,7 @@ geo  metry                      area_circle();
     }
 }
 
-void get_roman_num(digit)
+void get_roman_num(int digit)
 {
     switch(digit)
     {
@@ -249,51 +258,88 @@ void get_roman_num(digit)
                 cout << "The Roman numeral version of " << digit << " is X" << endl;
                 break;
             }
-        
+
+            default: {
+                cout << "Invalid choice. Please choose a number between 1-10." << endl;
+                break;
+            }
     }
 }
 
-void calc_hyperrectangle(double width, double length, double height)
+double calc_hyperrectangle(double width, double length, double height)
 {
-    double volume = width * length * height;
-    return volume;
+    if (length > 0 && width > 0 && height > 0) {
+        double volume = width * length * height;
+        return volume;
+    }
+    else {
+        cout << "Input is invalid. Only enter positive values for length and width." << endl;
+    }
 }
 
-double area_circle() {
-    
-}
-double radius;
-    cout << "Enter the radius of the circle: " << endl;
+double area_circle() 
+{
+    double radius;
+    double c_area;
+    cout << "Enter the radius of your circle: " << endl;
     cin >> radius;
-    double c_area = (3.14159) * radius;
-    cout << "The area of the circle is: " << c_area << endl;
+    if (radius >= 0) {
+        c_area = radius * radius * (3.14159);
+        cout << "The area of your circle is " << c_area << "." << endl;
+    }
+    else {
+        cout << "Input is invalid. The radius cannot be less than zero." << endl;
+    }
     return 0;
-double area_rectangle(
-    double radius;) {
-he radius of the circl)     cin >> radius;
-    double width, length, r_area;
-    cout << "Enter the width of your rectangle: " << endl;
-    cin >> width;
+}
+
+double area_rectangle() 
+{
+    double length;
+    double width;
+    double r_area;
     cout << "Enter the length of your rectangle: " << endl;
     cin >> length;
-    r_area = length * width;
-    cout << "The area of the rectangle is: " << r_area << endl;
-    return 0;
+    cout << "Enter the width of your rectangle: " << endl;
+    cin >> width;
+    if (length > 0 && width > 0) {
+        r_area = length * width;
+        cout << "The area of your rectangle is " << r_area << "." << endl;
     }
-    double width, length
-    double base, height, t_area;
-    cout << "Enter the triangle's base: " << endl;
+    else {
+        cout << "Input is invalid. Only enter positive values for length and width." << endl;
+    }
+    return 0;
+}
+
+double area_triangle() 
+{
+    double base;
+    double height;
+    double t_area;
+    cout << "Enter the base of your triangle: " << endl;
     cin >> base;
-    cout << "Enter the triangle's height: " << endl;
+    cout << "Enter the height of your triangle: " << endl;
     cin >> height;
-    t_area = base * height * (0.5);
-    cout << "The area of the triangle is: " << t_area << endl;
-    return 0;    cout << "Enter the length of your rectangle: " << endl;
-        cout << "Hour\tDistance Traveled" << endl;
+    if (base > 0 && height > 0) {
+        t_area = base * height * (0.5);
+        cout << "The area of your triangle is " << t_area << "." << endl;
+    }
+    else {
+        cout << "Input is invalid. Only enter positive values for base and height." << endl;
+    }
+    return 0;
+}
+
+bool distance_traveled(double speed, double hours)
+{
+    bool speed_positive = true;
+    cout << "Hour\tDistance Traveled" << endl;
     cout << "------------------------" << endl;
-    for (int i = 1; i < hours; i++)
+    for (int i = 1; i <= hours; i++)
     {
-        double distance = speed * hours;
+        double distance = speed * i;
         cout << i << "\t" << distance << endl;
     }
+    return speed_positive = false;
 }
