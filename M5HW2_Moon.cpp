@@ -1,5 +1,5 @@
 // CSC134
-// M5T2 - CYOA
+// M5HW2 - Halloween++ CYOA
 // Madison Moon
 // 10/21/24
 #include <iostream>
