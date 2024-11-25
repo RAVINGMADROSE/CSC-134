@@ -1,5 +1,5 @@
 // CSC134
-// M5LAB1 - Raspberry Roulette
+// M6LAB1 - Raspberry Roulette
 // Madison Moon
 // 10/21/24
 
